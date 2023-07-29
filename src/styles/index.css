@@ -1,0 +1,44 @@
+.profile__container {
+    width: 500px;
+    margin: 150px auto;
+}
+
+.profile__box {
+    width: 100%;
+    position: relative;
+}
+
+.profile__image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile__status {
+    background-color: var(--online-green);
+    color: var(--fixed-white);
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.profile__details {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--fixed-white);
+    border-radius: 0 0 10px 10px;
+}
+
+.profile__name {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.profile__description {
+    padding: 20px;
+}
+
+

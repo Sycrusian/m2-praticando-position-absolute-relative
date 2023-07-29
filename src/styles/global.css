@@ -1,0 +1,10 @@
+:root {
+    --background-gray: #f8f9fb;
+    --fixed-white: #ffffff;
+    --online-green: #009666;
+}
+
+body {
+    background-color: var(--background-gray);
+    font-family: 'Calibri', sans-serif;
+}
